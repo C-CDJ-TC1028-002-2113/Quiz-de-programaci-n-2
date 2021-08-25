@@ -8,26 +8,26 @@
 input_values = [
         # Test case 1
         (
-            ["-10"],
-            ["Introduce los grados: ", "excede"],
+            ["640","751","954"],
+            ["","","","954 751 640"],
             "Revisa tu código",
         ),
         # Test case 2
         (
-            ["90"],
-            ["Introduce los grados: ", "eje"],
+            ["-5","-24","95"],
+            ["","","","95 -5 -24"],
             "Revisa tu código",
         ),
         # Test case 3
         (
-            ["45"],
-            ["Introduce los grados: ", "cuadrante 1"],
+            ["15","75","64"],
+            ["","","","75 64 15"],
             "Revisa tu código",
         ),
         # Test case 4
         (
-            ["215"],
-            ["Introduce los grados: ", "cuadrante 3"],
+            ["25","2","74"],
+            ["","","","74 25 2"],
             "Revisa tu código",
         ),
     ]

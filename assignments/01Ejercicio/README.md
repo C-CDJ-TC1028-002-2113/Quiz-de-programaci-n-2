@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Licencia
+# Compañía de Transporte
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
@@ -63,7 +63,7 @@ Una compañía de transporte internacional tiene servicio en algunos países de 
         </tr>
    </Body>
 </table>
-<br>Parte de su política implica que los paquetes con un peso superior a 5 kg no son transportados, esto por cuestiones de logística y de seguridad. Realice un programa para determinar el cobro por la entrega de un paquete o, en su caso, el rechazo de la entrega poner INCORRECTO. El rechazo también se  aplica si se pone una zona no valida. 
+<br>Parte de su política implica que los paquetes con un peso superior a 5 kg no son transportados, esto por cuestiones de logística y de seguridad. Realice un programa que utilice funciones para determinar el cobro por la entrega de un paquete o, en su caso, el rechazo de la entrega poner INCORRECTO. El rechazo también se  aplica si se pone una zona no valida. 
 </p>
 <h2>Entrada</h2>
 dos números el cual es el peso y la zona 

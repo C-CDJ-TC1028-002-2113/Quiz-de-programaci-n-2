@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Cuadrante
+# Número Mayor
 **Decisiones - Número de cuadrante donde se encuentra un número (grados) entre 0 y 360**
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama

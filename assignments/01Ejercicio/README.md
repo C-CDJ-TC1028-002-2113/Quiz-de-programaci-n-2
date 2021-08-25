@@ -21,53 +21,68 @@ if __name__ == '__main__':
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
 ## Definición del problema
-Una persona puede obtener su licencia de manejo si es mayor de edad y tiene identificación oficial.
+Una compañía de transporte internacional tiene servicio en algunos países de América del Norte, América Central, África, América del Sur, Europa y Asia. El costo por el servicio de transporte se basa en el peso del paquete y la zona a la que va dirigido. Lo anterior se muestra en la tabla:
+<table >
+ <thead >
+        <tr>
+            <th >Zona</th>
+            <th >Ubicación</th>
+            <th >Costo/gramo</th>
+        </tr>
+    </thead>
+   <Body>
+     <tr >
+            <td>1</td>
+            <td>América del Norte</td>
+            <td>24.00 dlls</td>
+     </tr>
+     <tr>
+            <td>2</td>
+            <td>América Central</td>
+            <td>20.00 dlls</td>
+        </tr>
+        <tr  >
+            <td>3</td>
+            <td>América del Sur</td>
+            <td>21.00 dlls</td>
+        </tr>
+        <tr  >
+            <td>4</td>
+            <td>Europa</td>
+            <td>12.00 dlls</td>
+        </tr>
+        <tr  >
+            <td>5</td>
+            <td>Asia</td>
+            <td>16.00 dlls</td>
+        </tr>
+        <tr  >
+            <td>6</td>
+            <td>África</td>
+            <td>24.00 dlls</td>
+        </tr>
+   </Body>
+</table>
+<br>Parte de su política implica que los paquetes con un peso superior a 5 kg no son transportados, esto por cuestiones de logística y de seguridad. Realice un programa para determinar el cobro por la entrega de un paquete o, en su caso, el rechazo de la entrega poner INCORRECTO. El rechazo también se  aplica si se pone una zona no valida. 
+</p>
+<h2>Entrada</h2>
+dos números el cual es el peso y la zona 
+<h2>Salida</h2>
+el precios del paquete enviado  o la  palabra INCORRECTO según sea el caso
 
-Escribe un programa en Python que lea la edad de una persona y si tiene (s/n) identificación oficial.
+<h2>Ejemplo1</h2>
+<h3>Entradar</h3>
+<br>2500.00
+<br>1
+<h3>Salida</h3>
+<br>60000.0
 
-De salida debe mostrar Si  puede obtener su licencia o No la puede obtener.
-
-**Entradas**
-El programa va a preguntar por:
-- la edad de la persona, debe ser un entero positivo.
-- si tiene identificación o no. Debe ser un string, que contenga las letras "s" o "n"
-
-**Salidas**
-Añade el código necesario para que el programa imprima:
-- **Trámite de licencia concedido** si la edad es mayor o igual a 18 y tiene identificación oficial
-- **No cumples requisitos** si no cumple con los requisitos para la licencia
-- Si la edad es negativa o el usuario ingresó cualquier otro caracter que no sea s o n cuando pides la identificación, debe mostrar el mensaje **Respuesta incorrecta**
-
-La salida del programa debe de ser exactamente de la siguiente forma:
-
-## Ejemplos
-Ejemplo 1
-
-```plaintext
-Ingresa tu edad: 19
-¿Tienes identificación oficial? (s/n): s
-Trámite de licencia concedido
-```
-Ejemplo 2
-
-```plaintext
-Ingresa tu edad: 19
-¿Tienes identificación oficial? (s/n): n
-No cumples requisitos
-```
-
-Ejemplo 3
-```plaintext
-Ingresa tu edad: 12
-No cumples requisitos
-```
-
-Ejemplo 4
-```plaintext
-Ingresa tu edad: 20
-¿Tienes identificación oficial? (s/n): g
-Respuesta incorrecta
-```
+<h2>Ejemplo2</h2>
+<h3>Entradar</h3>
+<br>20000.00
+<br>1
+<h3>Salida</h3>
+<br>INCORRECTO
 
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para

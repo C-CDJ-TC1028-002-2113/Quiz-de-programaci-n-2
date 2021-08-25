@@ -27,19 +27,19 @@ se imprimiran los tres mismos numero en la misma linea ordenados de mayor a meno
 
 <h2>Ejemplo1</h2>
 <h3>Entradar</h3>
-6
-8
-15
+<br>6
+<br>8
+<br>15
 <h3>Salida</h3>
-15 8 6
+<br>15 8 6
 
 <h2>Ejemplo2</h2>
 <h3>Entradar</h3>
-640
-751
-954
+<br>640
+<br>751
+<br>954
 <h3>Salida</h3>
-954 751 640
+<br>954 751 640
 ```
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para

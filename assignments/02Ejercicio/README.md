@@ -17,30 +17,29 @@ if __name__ == '__main__':
 La línea `#Escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que lea un número entero que se encuentre entre 0 y 360 que representa los grados del plano cartesiano y que muestre como resultado el número de cuadrante en donde se encuentra. 
-En caso de que el grado caiga en un eje, tu programa debe mostrar la palabra `"eje"`.
-En caso de que el grado sea menor a cero o mayor a 360,  tu programa debe mostrar la palabra `"excede"`.
+Realice un program en Python que utilice funciones, este deberá pedir tres números y los muestre ordenados (de mayor a menor)
 
-**Entrada**
-- Un número entero que representa una cantidad de grados.
+<h2>Entrada</h2>
+se recibiran tres numero en diferentes renglones
 
-**Salida**
-- La palabra cuadrante (en minúsculas) seguida del número de cuadrante correspondiente (por ejemplo: `cuadrante 2`), o bien alguna de las palabras `eje` o `excede`.
+<h2>Salida</h2>
+se imprimiran los tres mismos numero en la misma linea ordenados de mayor a menor
 
-Estos son algunos ejemplos de ejecución del programa. La salida del programa debe de ser exactamente de la siguiente forma:
+<h2>Ejemplo1</h2>
+<h3>Entradar</h3>
+6
+8
+15
+<h3>Salida</h3>
+15 8 6
 
-```plaintext
-Introduce los grados: -10
-excede
-
-Introduce los grados: 90
-eje
-
-Introduce los grados: 45
-cuadrante 1
-
-Introduce los grados: 215
-cuadrante 3
+<h2>Ejemplo2</h2>
+<h3>Entradar</h3>
+640
+751
+954
+<h3>Salida</h3>
+954 751 640
 ```
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para
